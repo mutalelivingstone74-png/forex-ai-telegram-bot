@@ -3,8 +3,8 @@ import requests
 import datetime
 
 # Read secrets from GitHub Actions
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("8466329982:AAGRP7QTIkOLnf19cUPN1QkHj3OJtFcWsZ8")
+CHAT_ID = os.getenv("6885100476")
 
 def send_telegram(message):
     if not BOT_TOKEN or not CHAT_ID:
